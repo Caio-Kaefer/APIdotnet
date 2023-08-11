@@ -6,6 +6,7 @@ namespace TestAPI.Data
     {
         public DataContext(DbContextOptions<DataContext> options):base(options) { }
         public DbSet<SuperHero> Superheroes { get; set; }
+        public DbSet<SuperVillain> SuperVillains { get;set; }
 
     }
 }
